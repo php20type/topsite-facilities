@@ -12,7 +12,7 @@
             <h2>{{ __('Login') }}</h2>
             <p>Need an account? <span><a href="#">Get started!</a></span></p>
         </div>
-        <form class="singup-form-sec" method="POST" action="{{ route('login') }}">
+        <form class="singup-form-sec" method="POST" action="{{ route('user.login') }}">
             @csrf
             <div class="form-group email">
                 <input id="email" type="email" placeholder="loremipsum@gmail.com" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>

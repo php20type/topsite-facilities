@@ -471,7 +471,7 @@ title {
     outline: 0;
 }
 .PropertyForm .form-group .form-select {
-    padding-left: 40px;
+    /* padding-left: 40px; */
 }
 .PropertyForm .form-group .lab-style {
     width: auto;
@@ -1303,3 +1303,13 @@ title {
     }
     
 }
+.PropertyForm .form-group .fa {
+    font-family: 'Inter', 'Font Awesome 6 Pro';
+   font-size: 14px;
+   color: #868686;
+   line-height: 23px;
+   border: 1px solid #868686;
+   background-color: #f0f7fe;
+   font-weight: 400;   
+   letter-spacing: 2px;
+ }
